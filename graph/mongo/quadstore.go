@@ -20,8 +20,8 @@ import (
 	"hash"
 	"sync"
 
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/penlook/mgo"
+	"github.com/penlook/mgo/bson"
 
 	"github.com/barakmich/glog"
 	"github.com/google/cayley/graph"

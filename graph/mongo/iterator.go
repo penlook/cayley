@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	"github.com/barakmich/glog"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
+	"github.com/penlook/mgo"
+	"github.com/penlook/mgo/bson"
 
 	"github.com/google/cayley/graph"
 	"github.com/google/cayley/graph/iterator"
